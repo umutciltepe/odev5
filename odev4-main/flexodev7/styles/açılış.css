@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/audi-a6-e-tron-concept.webp)no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+}
+.kutu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+span{
+    display: flex;
+    height: 150px;
+    flex: 0 0 150px;
+    background-color: rgb(59, 101, 215);
+    font-size: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
